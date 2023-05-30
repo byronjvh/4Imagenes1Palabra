@@ -1,0 +1,36 @@
+.imageModal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 95%;
+  max-width: 516px;
+}
+
+.imageModal__button {
+  position: absolute;
+  display: grid;
+  place-content: center;
+  top: .5rem;
+  right: .5rem;
+  background-color: var(--bg);
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+}
+
+.imageModal__img {
+  max-height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
+@keyframes modal {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}

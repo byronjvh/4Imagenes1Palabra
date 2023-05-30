@@ -1,0 +1,49 @@
+.help {
+  position: fixed;
+  top: 1rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+  height: calc(100% - 2rem);
+  width: calc(100% - 1rem);
+  max-width: 616px;
+  animation: fade-in .3s ease-out;
+  background-color: var(--bg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: .5rem;
+  border-radius: 5px;
+  font-size: var(--medium);
+  box-shadow: 0 0 32px rgba(var(--shadow), .1);
+  font-weight: 500;
+}
+
+.help__howTo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  height: 100%;
+  text-align: center;
+}
+
+.help__close {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  right: .5rem;
+  top: .5rem;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  font-size: var(--big);
+  border-radius: 50%;
+  transition: background-color .2s ease-out;
+}
+
+.help__close:hover {
+  background-color: var(--bg-shade);
+}
+

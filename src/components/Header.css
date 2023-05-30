@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--title);
+  gap: .5rem;
+  position: relative;
+}
+
+.header__title {
+  font-size: inherit;
+  display: flex;
+  gap: 3px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header__title span {
+  border-bottom: 2px solid rgba(var(--shadow), .5);
+}
+
+.header__button {
+  background-color: var(--bg-shade);
+  border-radius: 5000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  width: 32px;
+  cursor: pointer;
+}
+
+.icon{
+  color: #ee0;
+  stroke: var(--text);
+  stroke-width: 50px;
+}
+
+.header__button:hover {
+  filter: saturate(.6);
+}

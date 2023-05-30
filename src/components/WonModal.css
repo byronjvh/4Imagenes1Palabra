@@ -1,0 +1,22 @@
+.wonModal {
+  background-color: var(--white);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1.5rem 2rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  max-width: max-content;
+  font-size: var(--title);
+  font-weight: 500;
+}
+
+.wonModal__word {
+  font-size: var(--medium);
+  display: flex;
+  gap: .3rem;
+}

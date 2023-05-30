@@ -1,0 +1,15 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.App {
+  width: 100%;
+  max-width: 616px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem .5rem;
+}
