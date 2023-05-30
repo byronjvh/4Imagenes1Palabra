@@ -17,4 +17,4 @@ technologies and dependencies used in this project:
 * [Canvas Confetti](https://github.com/catdad/canvas-confetti)
 
 ## Deploy
-* [GitHub pages](https://aaaaaa)
+* [GitHub pages](https://byronjvh.github.io/4Imagenes1Palabra/)

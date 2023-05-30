@@ -36,7 +36,7 @@ function Over () {
         }
         </div>
         <h3 className='title'>Has terminado todas las <span style={{ display: 'inline-block' }}>palabras! 🎉</span></h3>
-        <a style={{ fontSize: '2.3em' }} href='' className='iconLink' title='Visit on GitHub'><FaGithub /></a>
+        <a style={{ fontSize: '2.3em' }} href='https://github.com/byronjvh/4Imagenes1Palabra' className='iconLink' title='Visit on GitHub'><FaGithub /></a>
       </section>
     </>
   )
