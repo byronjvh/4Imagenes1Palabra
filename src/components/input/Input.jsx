@@ -1,7 +1,7 @@
 import { useContext, useEffect } from 'react'
 import { globalContext } from '../../context/GlobalContext'
 import './Input.css'
-import InputField from './inputField'
+import InputField from './inputField.jsx'
 
 function Input () {
   const { gameState, currentFocus, incorrect, resetIncorrect } = useContext(globalContext)
